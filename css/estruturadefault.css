@@ -1,0 +1,54 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    width: 100%;
+    min-height: 64px;
+    /*background: rgb(226,255,0);
+    background: linear-gradient(354deg, rgba(226,255,0,0.9184926922401685) 20%, rgba(0,255,24,0.9072567371839888) 92%);*/
+    /* background: rgb(225,255,0);
+    background: linear-gradient(56deg, rgba(225,255,0,0.9184926922401685) 8%, rgba(255,255,255,1) 11%, rgba(0,255,24,0.9072567371839888) 13%, rgba(248,255,0,1) 16%, rgba(255,255,255,1) 19%, rgba(0,255,10,1) 23%, rgba(255,232,0,1) 27%, rgba(255,255,255,1) 31%, rgba(12,255,0,1) 35%, rgba(235,255,0,1) 38%, rgba(255,255,255,1) 40%, rgba(0,255,10,1) 43%, rgba(227,255,0,1) 46%, rgba(255,255,255,1) 49%, rgba(106,255,0,1) 52%, rgba(248,255,0,1) 54%, rgba(255,255,255,1) 57%, rgba(72,255,0,1) 60%, rgba(255,253,0,1) 63%, rgba(255,255,255,1) 66%, rgba(0,255,1,1) 68%, rgba(244,255,1,1) 70%, rgba(255,255,255,1) 72%, rgba(0,255,23,1) 75%, rgba(227,255,0,1) 77%, rgba(255,255,255,1) 78%, rgba(20,255,0,1) 80%, rgba(222,255,0,1) 82%, rgba(255,255,255,1) 84%, rgba(29,255,0,1) 86%, rgba(235,255,0,0.9072567371839888) 90%, rgba(255,255,255,0.9072567371839888) 93%, rgba(0,255,53,0.9072567371839888) 96%); */
+    /*background: rgb(225,255,0);
+    background: linear-gradient(56deg, rgba(225,255,0,0.9184926922401685) 8%, rgba(0,0,0,1) 11%, rgba(0,255,24,0.9072567371839888) 13%, rgba(248,255,0,1) 16%, rgba(0,0,0,1) 19%, rgba(0,255,10,1) 23%, rgba(255,232,0,1) 27%, rgba(0,0,0,1) 31%, rgba(12,255,0,1) 35%, rgba(235,255,0,1) 38%, rgba(0,0,0,1) 40%, rgba(0,255,10,1) 43%, rgba(227,255,0,1) 46%, rgba(0,0,0,1) 49%, rgba(106,255,0,1) 52%, rgba(248,255,0,1) 54%, rgba(0,0,0,1) 57%, rgba(72,255,0,1) 60%, rgba(255,253,0,1) 63%, rgba(0,0,0,1) 66%, rgba(0,255,1,1) 68%, rgba(244,255,1,1) 70%, rgba(0,0,0,1) 72%, rgba(0,255,23,1) 75%, rgba(227,255,0,1) 77%, rgba(0,0,0,1) 78%, rgba(20,255,0,1) 80%, rgba(222,255,0,1) 82%, rgba(0,0,0,1) 84%, rgba(29,255,0,1) 86%, rgba(235,255,0,0.9072567371839888) 90%, rgba(0,0,0,0.9072567371839888) 93%, rgba(0,255,53,0.9072567371839888) 96%); */
+    background-color: #eee;
+    border-bottom: solid 1px blue;
+    overflow: hidden;
+}
+header nav{
+    width: 600px;
+    min-height: 70px;
+    display: block;
+}
+header nav .itemMenu{
+    width: 100px;
+    min-height: 32px;
+    margin-top: 7px;
+    display: inline-block;
+}
+.itemMenu .icone {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 26px;
+    transition: 2s;
+}
+.itemMenu .icone img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 32px;
+}
+.itemMenu .titulo{
+    text-align: center;
+}
+.itemMenu:hover>.icone img{
+    width: 47px;
+    transition: 2s;
+}
+.itemMenu:hover>.icone{
+    font-size: 33px;
+    transition: 2s;
+}
