@@ -3,12 +3,13 @@
     <head>
         <title>Jamaica Tesla</title>
         <meta charset="utf-8">
+        <script src="lib/jquery.js"></script>
         <link rel="stylesheet" href="./css/index.css">
         <link rel="stylesheet" href="./css/animate.min.css">
     </head>
     <body>
         <header>
-            <nav class="animated slideInLeft">
+            <nav class="cold9 animated slideInLeft Esquerda">
                 <div class="itemMenu bordaEsquerda">
                     <div class="icone"><img src="./img/culture-icon.png" alt="culinaria"></div>
                     <div class="titulo">Cultura</div>
@@ -29,12 +30,64 @@
                     <div class="icone"><img src="./img/contact-icon.png" alt="culinaria"></div>
                     <div class="titulo">Contato</div>
                 </div>
-                
+
             </nav>
-            <p>Logo</p>
+            <div class="cold2 animated flipInY delay-1s Esquerda">
+                <img class="animated slideInDown" style="float: right; margin-right: 4px; margin-top: 4px; display:block; margin-bottom: -8px;" src="./img/nadeiracircular.png" height="55" width="55" alt="logo">
+            </div>
         </header>
-        <div role="banner"></div>
-        <div role="main"></div>
-        <footer></footer>
+        <script src="./lib/blinkSlider/jquery.blink.js"></script>
+        <link rel="stylesheet" href="lib/blinkSlider/blink.css">
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("#blink").blink();
+            });
+        </script>
+        <div role="banner">
+            <section class="blink-slider animated slideInRight">
+                <div class="blink-view" id="blink" style="height: 435px;">
+                    <div class="viewSlide">
+                        <img class="fullImg" src="./img/manancialjamaica.png" id="foto1" />
+                        <p style="margin-top: -522px;">hello word!</p>
+                    </div>
+                    <div class="viewSlide">
+                        <img class="fullImg" src="./img/manancialjamaica.png" id="foto2" />
+                    </div>
+                </div>
+                <div class="blink-control" id="blink-control">
+                </div>
+            </section>
+        </div>
+        <div role="main">
+            <div class="row">
+                <div class="cold4 Esquerda">
+                    <img class="arredonda center" style="border: solid 1px black; display: block; margin-top: 22px; width: 230px; height: 230px;" src="img/manancialjamaica.png" height="32" width="32">
+                    <div style="margin-top: 22px; text-align: center; font-size: 23px; font-family: ubuntu;">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut .
+                        
+                    </div>
+                </div>
+                <div class="cold3 center" style="width: 30%;">
+                    <img class="arredonda center" style="border: solid 1px black; display: block; margin-top: 22px; width: 230px; height: 230px;" src="img/manancialjamaica.png" height="32" width="32">
+                    <div style="margin-top: 22px; text-align: center; font-size: 23px; font-family: ubuntu;">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut .
+                        
+                    </div>
+                </div>
+                <div class="cold4 Direita">
+                    <img class="arredonda center" style="border: solid 1px black; display: block; margin-top: 22px; width: 230px; height: 230px;" src="img/manancialjamaica.png" height="32" width="32">
+                    <div style="margin-top: 22px; text-align: center; font-size: 23px; font-family: ubuntu;">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut .
+                        
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <footer>
+
+
+        </footer>
     </body>
 </html>

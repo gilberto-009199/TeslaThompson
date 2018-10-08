@@ -1,3 +1,61 @@
+@font-face {
+    font-family: ubuntu;
+    src: url(../fonts/ubuntu/Ubuntu-Regular.ttf);
+}
+@font-face {
+    font-family: ubuntu;
+    src: url(../fonts/ubuntu/Ubuntu-Bold.ttf);
+    font-weight: bold;
+}
 .bordaEsquerda{
     border-right: solid 1px black;
+}
+.row{
+    width: 100%;
+}
+.cold10,.cold9,.cold8,.cold7,.cold6,.cold5,.cold4,.cold3,.cold2,.cold1{
+    display: inline-block;
+}
+.cold10{
+    width: 95%;
+}
+.cold9{
+    width: 85%;
+}
+.cold8{
+    width: 75%;
+}
+.cold7{
+    width: 65%;
+}
+.cold6{
+    width: 55%;
+}
+.cold5{
+    width: 45%;
+}
+.cold4{
+    width: 35%;
+}
+.cold3{
+    width: 25%;
+}
+.cold2{
+    width: 15%;
+}
+.cold1{
+    width: 5%;
+}
+.Direita{
+    float:right;
+}
+.Esquerda{
+    float:left;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.arredonda{
+    border-radius:200px;
 }
