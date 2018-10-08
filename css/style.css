@@ -12,6 +12,8 @@
 }
 .row{
     width: 100%;
+    height:auto;
+    overflow:auto;
 }
 .cold10,.cold9,.cold8,.cold7,.cold6,.cold5,.cold4,.cold3,.cold2,.cold1{
     display: inline-block;
