@@ -61,3 +61,21 @@
 .arredonda{
     border-radius:200px;
 }
+.borda{
+	border-bottom:solid 1px #262626;
+	display:block;
+}
+a{
+    text-decoration:none;
+}
+a:visited{
+    text-decoration:none;
+
+}
+a:link, a:visited {
+	text-decoration: none
+}
+
+a:active {
+	text-decoration: none
+}

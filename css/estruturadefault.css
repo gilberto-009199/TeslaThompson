@@ -2,6 +2,7 @@
 body{
     padding: 0px;
     margin: 0px;
+    background:black;
 }
 header{
     width: 100%;
@@ -18,8 +19,9 @@ header{
     /*background-color: #eee;*/
     background: rgb(255,255,255);
     background: linear-gradient(16deg, rgba(255,255,255,1) 34%, rgba(216,216,216,1) 84%);
-    border-bottom: solid 1px blue;
+    /*border-bottom: solid 1px blue;*/
     overflow: hidden;
+    background: #00FF11;
 }
 header nav{
     width: 600px;
@@ -76,6 +78,13 @@ div[role="main"]{
     margin-right: auto;
     background-color: #d8d8d8;
 }
+footer{
+    height:59px;
+    width:100%;
+    background: rgb(225,255,0);
+    background: linear-gradient(56deg, rgba(225,255,0,0.9184926922401685) 8%, rgba(255,255,255,1) 11%, rgba(0,255,24,0.9072567371839888) 13%, rgba(248,255,0,1) 16%, rgba(255,255,255,1) 19%, rgba(0,255,10,1) 23%, rgba(255,232,0,1) 27%, rgba(255,255,255,1) 31%, rgba(12,255,0,1) 35%, rgba(235,255,0,1) 38%, rgba(255,255,255,1) 40%, rgba(0,255,10,1) 43%, rgba(227,255,0,1) 46%, rgba(255,255,255,1) 49%, rgba(106,255,0,1) 52%, rgba(248,255,0,1) 54%, rgba(255,255,255,1) 57%, rgba(72,255,0,1) 60%, rgba(255,253,0,1) 63%, rgba(255,255,255,1) 66%, rgba(0,255,1,1) 68%, rgba(244,255,1,1) 70%, rgba(255,255,255,1) 72%, rgba(0,255,23,1) 75%, rgba(227,255,0,1) 77%, rgba(255,255,255,1) 78%, rgba(20,255,0,1) 80%, rgba(222,255,0,1) 82%, rgba(255,255,255,1) 84%, rgba(29,255,0,1) 86%, rgba(235,255,0,0.9072567371839888) 90%, rgba(255,255,255,0.9072567371839888) 93%, rgba(0,255,53,0.9072567371839888) 96%);
+}
+
 .itemMenu:hover>.icone img{
     width: 47px;
     transition: 2s;
